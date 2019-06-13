@@ -1,0 +1,65 @@
+h1 {
+    font-size: 52px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(rgb(17, 17, 17), rgb(78, 80, 77));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font1 {
+    background-color: #ff1493;
+    background: linear-gradient(319deg, #ff1493 0%, #0000ff 37%, #ff8c00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font2 {
+    font-size: 37px;
+    background-color: #b90e6a;
+    background: linear-gradient(319deg, #70254d 0%, #4040eb 37%, #ce4c18 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*  Background Image */
+
+hr.type_9 {
+    border: 0;
+    height: 25px;
+    background-image: url(type_9.png);
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    height: 450px;
+}
+
+.col {
+    width: 480px;
+    padding: 7px;
+    float: left;
+}
+
+.button {
+    background-color: #eef13b;
+    border: none;
+    color: rgb(150, 61, 10);
+    padding: 16px 22px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1
+}
